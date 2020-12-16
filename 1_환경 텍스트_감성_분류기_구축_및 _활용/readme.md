@@ -51,9 +51,11 @@
 ![](https://github.com/keibigdata/dyjin_2020/blob/master/1_%ED%99%98%EA%B2%BD%20%ED%85%8D%EC%8A%A4%ED%8A%B8_%EA%B0%90%EC%84%B1_%EB%B6%84%EB%A5%98%EA%B8%B0_%EA%B5%AC%EC%B6%95_%EB%B0%8F%20_%ED%99%9C%EC%9A%A9/image/F6.png)
 
 ## 파일 설명
-1.트위터_텍스트_수집/OldTweetCrawler_월별_수집.ipynb : 트위터 데이터 월별 수집
-1.트위터_텍스트_수집/OldTweetCrawler_일별_수집.ipynb : 트위터 데이터 일별 수집(데이터가 많아 수집이 안되는 경우 사용)
-1.트위터_텍스트_수집/키워드_최종.xlsx (트위터 데이터 수집을 위한 검색식)
+
+- 1.트위터_텍스트_수집/OldTweetCrawler_월별_수집.ipynb : 트위터 데이터 월별 수집
+- 1.트위터_텍스트_수집/OldTweetCrawler_일별_수집.ipynb : 트위터 데이터 일별 수집(데이터가 많아 수집이 안되는 경우 사용)
+- 1.트위터_텍스트_수집/키워드_최종.xlsx (트위터 데이터 수집을 위한 검색식)
+
 
 
 
