@@ -31,7 +31,7 @@
 ![](https://github.com/keibigdata/dyjin_2020/blob/master/1_%ED%99%98%EA%B2%BD%20%ED%85%8D%EC%8A%A4%ED%8A%B8_%EA%B0%90%EC%84%B1_%EB%B6%84%EB%A5%98%EA%B8%B0_%EA%B5%AC%EC%B6%95_%EB%B0%8F%20_%ED%99%9C%EC%9A%A9/image/F5.png)
 
 - 분야 별 Precision[실제부정/부정판정] 66%~92%, Recall [부정판별/실제부정]73%~81% 달성
-- 폐기물 분야는 Precision, Recall 이 모두 낮아서 지도학습을 통한 정확도 제고 필요 (쓰레기/폐기물 데이터에 포함된 키워드들의 영향)
+- 폐기물 분야는 Precision, Recall 이 모두 낮아서, 별도로 추가 데이터 수집 및 지도학습을 통한 정확도 제고 필요 (쓰레기/폐기물 데이터에 포함된 키워드들의 영향)
 
 
 ## 감성분류 웹 서비스 
