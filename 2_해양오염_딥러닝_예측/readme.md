@@ -4,12 +4,12 @@
 - 유기물질, 부유물질, 가시거리 위성자료
 - 수위, 유속, 수온, 염분의 수치모형 
 
-![](https://github.com/eodydsla/research/blob/master/2020_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F1_2.png?raw=true)
+![](https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F1_2.png?raw=true)
 
 ## 모형 구성의 목표
 - 위성자료와 수치모형 자료를 함께 활용하여 클로로필-a를 추정하기 위한 딥러닝 모형을 구축
 
-![](https://github.com/eodydsla/research/blob/master/2020_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F3.png?raw=true)
+![](https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F3.png?raw=true)
 
 
 
@@ -17,7 +17,7 @@
 
 ### 1) 모형 정보
 
-![](https://github.com/eodydsla/research/blob/master/2020_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F4.png?raw=true)
+![](https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F4.png?raw=true)
 
 ### 2) RMSE 예측 오차
 
@@ -27,19 +27,30 @@
 
 ### 3) RMSE 평균 경우 예측 결과 : 예측값, 실측값 이미지 비교시 큰 경향은 잡지만 값 비교시 많은 차이 존재
 
-<a href="#"><img src="https://github.com/eodydsla/research/blob/master/2020_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_PRED.png" width="30%" height="30%"/>
+<a href="#"><img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/A1_PRED.png" width="30%" height="30%"/>
 
-<a href="#"><img src="https://github.com/eodydsla/research/blob/master/2020_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_TRUE.png" width="30%" height="30%"/>
+<a href="#"><img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/A1_TRUE.png" width="30%" height="30%"/>
 
 
 ## 2. CNN 모델 II : 7×7 이미지를 7장을 받게 받아 클로로필-a 값 출력
 
-- 분할 이미지 구축 요약
+### 1) 분할 이미지 구축 방법 요약
 
-![](https://github.com/eodydsla/research/blob/master/2020_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F5.png?raw=true)
+![](https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F6.png?raw=true)
 
+### 2) 모형 정보
+![](https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EA%B7%B8%EB%A6%BC/F5.png?raw=true)
 
-- 결과 요약
+### 3) RMSE 예측 오차
+
+- 검증 데이터셋 : 0.463
+- 테스트 데이터셋 : 0.436
+
+### 4) RMSE 평균 경우 예측 결과 : 예측값, 실측값 이미지 비교시 큰 경향은 잡지만 값 비교시 많은 차이 존재
+
+- 검증 데이터셋 : 0.463
+- 테스트 데이터셋 : 0.436
+
 
 ## 3. 변수별 모형 구성
 
