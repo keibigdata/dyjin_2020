@@ -45,7 +45,7 @@
 - Word2Vec Cosine Similarity 계산을 통해 단어사이의  유사도 분석
 - 키워드 네트워크 구성 및 웹 화면에 출력 : 노드 : 키워드 빈도수, 엣지 : Word2Vec Cosine Similarity 0.7 이상
 
-### 웹 인터페이스
+## 웹 인터페이스
 
 
 ## 파일 설명
