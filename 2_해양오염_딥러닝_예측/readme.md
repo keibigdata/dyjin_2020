@@ -26,7 +26,11 @@
 
 ### 3) RMSE 평균 경우 예측 결과 : 예측값, 실측값 이미지 비교시 큰 경향은 잡지만 값 비교시 많은 차이 존재
 
+- 예측 이미지
+
 <img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_PRED.png" width="30%" height="30%"/>
+
+- 실측 이미지
 
 <img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_TRUE.png" width="30%" height="30%"/>
 
@@ -54,7 +58,11 @@
 
 - 예측값, 실측값 이미지 비교시 거의 유사한 형태를 나타냄 (최악의 경우에도 큰 트렌드는 어느정도 추적하는것으로 나타남)
 
+- 예측 이미지
+
 <img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_II_%EB%B6%84%ED%95%A0%EC%9D%B4%EB%AF%B8%EC%A7%80_%EA%B0%92_%EC%98%88%EC%B8%A1/A1_PRED.png" width="30%" height="30%"/>
+
+- 실제 이미지
 
 <img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_II_%EB%B6%84%ED%95%A0%EC%9D%B4%EB%AF%B8%EC%A7%80_%EA%B0%92_%EC%98%88%EC%B8%A1/A1_TRUE.png" width="30%" height="30%"/>
 
