@@ -33,7 +33,7 @@
 
 - 실제값/예측값 사이의 R2 그래프
 
-<img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_R2.png" width="30%" height="30%"/>
+<img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_R2.png" width="50%" height="50%"/>
 
 
 ## 2. CNN 모델 II : 7×7 이미지를 7장을 받게 받아 클로로필-a 값 출력
@@ -52,8 +52,13 @@
 
 ### 4) RMSE 평균 경우 예측 결과 : 예측값, 실측값 이미지 비교시 큰 경향은 잡지만 값 비교시 많은 차이 존재
 
-- 검증 데이터셋 : 0.463
-- 테스트 데이터셋 : 0.436
+<img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_PRED.png" width="30%" height="30%"/>
+
+<img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_TRUE.png" width="30%" height="30%"/>
+
+- 실제값/예측값 사이의 R2 그래프
+
+<img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_I_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%9D%B4%EB%AF%B8%EC%A7%80_%EC%98%88%EC%B8%A1/A1_R2.png" width="50%" height="50%"/>
 
 
 ## 3. 변수별 모형 구성
