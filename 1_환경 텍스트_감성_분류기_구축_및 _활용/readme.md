@@ -23,11 +23,12 @@
 
 ## 성능 요약
 - 0.5 기준으로 부정/긍정을 분류 경우
-![]https://github.com/keibigdata/dyjin_2020/blob/master/1_%ED%99%98%EA%B2%BD%20%ED%85%8D%EC%8A%A4%ED%8A%B8_%EA%B0%90%EC%84%B1_%EB%B6%84%EB%A5%98%EA%B8%B0_%EA%B5%AC%EC%B6%95_%EB%B0%8F%20_%ED%99%9C%EC%9A%A9/image/F4.png
+
+![](https://github.com/keibigdata/dyjin_2020/blob/master/1_%ED%99%98%EA%B2%BD%20%ED%85%8D%EC%8A%A4%ED%8A%B8_%EA%B0%90%EC%84%B1_%EB%B6%84%EB%A5%98%EA%B8%B0_%EA%B5%AC%EC%B6%95_%EB%B0%8F%20_%ED%99%9C%EC%9A%A9/image/F4.png)
 
 - 0.7 기준으로 부정/긍정을 분류 경우
 
-![]https://github.com/keibigdata/dyjin_2020/blob/master/1_%ED%99%98%EA%B2%BD%20%ED%85%8D%EC%8A%A4%ED%8A%B8_%EA%B0%90%EC%84%B1_%EB%B6%84%EB%A5%98%EA%B8%B0_%EA%B5%AC%EC%B6%95_%EB%B0%8F%20_%ED%99%9C%EC%9A%A9/image/F5.png
+![](https://github.com/keibigdata/dyjin_2020/blob/master/1_%ED%99%98%EA%B2%BD%20%ED%85%8D%EC%8A%A4%ED%8A%B8_%EA%B0%90%EC%84%B1_%EB%B6%84%EB%A5%98%EA%B8%B0_%EA%B5%AC%EC%B6%95_%EB%B0%8F%20_%ED%99%9C%EC%9A%A9/image/F5.png)
 
 
 ## 파일 설명
