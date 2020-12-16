@@ -61,7 +61,17 @@
 <img src="https://github.com/keibigdata/dyjin_2020/blob/master/2_%ED%95%B4%EC%96%91%EC%98%A4%EC%97%BC_%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%98%88%EC%B8%A1/%EC%98%88%EC%B8%A1%EA%B2%B0%EA%B3%BC/CNN%EB%AA%A8%ED%98%95_II_%EB%B6%84%ED%95%A0%EC%9D%B4%EB%AF%B8%EC%A7%80_%EA%B0%92_%EC%98%88%EC%B8%A1/A1_R2.png" width="50%" height="50%"/>
 
 
-## 3. 변수별 모형 구성
+## 3. 변수별 모형 구성 : RMSE 예측오차 (클수록 나쁨)
+
+- CDOM : 0.231
+- TSS : 0.526
+- VIS : 0.492
+- VELOCITY : 0.651
+- SALINITY : 0.648
+- TEMP : 0.545
+- WATERLEVEL : 0.653
+- ALL + CDOM제외 : 0.330
+- ALL : 0.191
 
 ## 4. 추가 파일설명
 ### 1) 모델 : 모델정보 저장
