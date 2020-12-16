@@ -14,6 +14,8 @@
 - 최종적으로 준지도 학습을 이용하여 학습 데이터를 기존 5 만 건에서 18만 건으로 확대
 - 성능 평가 : 기존 데이터 대상 분류 정확도 1% 향상 확인(78.7% → 79.7%) 
 
+![](https://github.com/keibigdata/dyjin_2020/blob/master/1_%ED%99%98%EA%B2%BD%20%ED%85%8D%EC%8A%A4%ED%8A%B8_%EA%B0%90%EC%84%B1_%EB%B6%84%EB%A5%98%EA%B8%B0_%EA%B5%AC%EC%B6%95_%EB%B0%8F%20_%ED%99%9C%EC%9A%A9/image/F3.png?raw=true)
+
 
 ## 모형 정보
 
