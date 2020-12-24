@@ -30,9 +30,7 @@
 - 2010~2019 KEI 보고서 제목 분석
 
 <img src = "https://github.com/keibigdata/dyjin_2020/blob/master/4.%20%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_W2V/images/4.png?raw=true">
-
-
-- 기후변화 연구 중심으로 네트워크가  
+  
 
 ## 추가 파일설명
 1) 코드 
