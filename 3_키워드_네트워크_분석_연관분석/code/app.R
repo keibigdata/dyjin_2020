@@ -55,7 +55,7 @@ ui <- fluidPage(
       textInput(inputId = "p_conf", label = "신뢰도", value = "0.3"),
       textInput(inputId = "n_rel", label = "관계수", value = "30"),
       textInput(inputId = "s_words", label = "불용어", value = ""),
-	  sliderInput(inputId = "v_size", label = "노드크기",  min= 0.01, max=1.0, value=0.25),
+	  sliderInput(inputId = "v_size", label = "노드크기",  min= 0.01, max=1.0, value=0.1),
       checkboxInput("chk", label = "2개 이상 관계 활용", value = FALSE),
       radioButtons(inputId = "morph_type", "형태소 분석기",
                    choices = c(은전한닢 = "mecab",
@@ -107,7 +107,7 @@ strsplit_space <- function(x)
   as.vector(unlist(strsplit(x," ")))
 }
 
-assoc_analysis <- function(p_supp, p_conf,SEED,n_rel,s_words,ordering,is_mwords,morph_type)
+assoc_analysis <- function(p_supp, p_conf,SEED,n_rel,s_words,ordering,is_mwords,morph_type,v_size)
 {
   
   n_rel <- as.numeric(n_rel)
@@ -145,14 +145,14 @@ assoc_analysis <- function(p_supp, p_conf,SEED,n_rel,s_words,ordering,is_mwords,
   
   tryCatch(
     {
-      
+      print('실행-1')
       result_mat <- as.matrix(arules::inspect(ares))
       colnames(result_mat)[2] <- "->"
       idx <- which(result_mat[,"lhs"] != "{}")
       idx <- intersect(idx,which(as.numeric(result_mat[,"count"]) >= 2))
       result_mat <- result_mat[idx,]
       ares <- ares[idx,]
-      
+      print('실행-2')
       if(length(idx) < n_rel)
         n_rel <- length(idx)
       
@@ -184,13 +184,14 @@ assoc_analysis <- function(p_supp, p_conf,SEED,n_rel,s_words,ordering,is_mwords,
       
       #### 단어근접중심성파악 ####
       
+      print('실행0')
       closen <- igraph::closeness(ruleg)
       
       
       #### node(vertex), link(edge) 크기 조절 (복잡) ####
-      v_size <- as.numeric(input$v_size)
-      V(ruleg)$size<- igraph::degree(ruleg)/ v_size
-      
+      print('실행1')
+      V(ruleg)$size<- igraph::degree(ruleg)/ (1/v_size) * 100
+      print('실행2')
       #### node(vertex), link(edge) 크기 조절 (단순) ####
       ruleg <- simplify(ruleg)
       
@@ -223,7 +224,7 @@ assoc_analysis <- function(p_supp, p_conf,SEED,n_rel,s_words,ordering,is_mwords,
       #V(ruleg)$label.cex<-2*(V(ruleg)$degree / max(V(ruleg)$degree))
       ret <- list('result_mat' = result_mat, 'ruleg' = ruleg, 'indi' = indi)
       
-      print("후잉")
+     
       return (ret)
     },
     error=function(error_message) {
@@ -245,7 +246,7 @@ server <- function(input, output,session) {
     output$result <- renderText({"Processing..."})
     print(input$chk)
     
-    ret <- assoc_analysis(input$p_supp,input$p_conf,input$SEED,input$n_rel,input$s_words,input$ordering,input$chk,input$morph_type)
+    ret <- assoc_analysis(input$p_supp,input$p_conf,input$SEED,input$n_rel,input$s_words,input$ordering,input$chk,input$morph_type,input$v_size)
     
     print(ret)
     output$result <- renderTable({
