@@ -12,6 +12,4 @@
 - KEI 원내에서 http://data01.kei.re.kr/ka 에서 수행 가능
 - R Shiny를 통해 App 구현
 
-<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/4.%20%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_W2V/images/1.png?raw=true">
-
-<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/4.%20%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_W2V/images/3.png?raw=true">
+<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/5_%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%B9%88%EB%8F%84_%EB%B0%8F_%ED%8A%B8%EB%A0%8C%EB%93%9C_%EB%B6%84%EC%84%9D/images/1.png?raw=true">
