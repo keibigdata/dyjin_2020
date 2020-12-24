@@ -17,7 +17,7 @@
 - 연관분석(Association analysis) 활용
 
 
-<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/3_%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_%EC%97%B0%EA%B4%80%EB%B6%84%EC%84%9D/images/1.png?raw=true">
+<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/3_%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_%EC%97%B0%EA%B4%80%EB%B6%84%EC%84%9D/images/2.png?raw=true">
 
 - 1개의 그래프는 노드(Node)와 엣지(Edge)를 정의함으로써 구성할수 있음
 - 노드 : 연관분석 결과 나타난 모든 키워드 (Rhs, Lhs 한번 이상)
