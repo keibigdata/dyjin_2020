@@ -1,14 +1,13 @@
-# 키워드 네트워크 분석 - Word2Vec 활용
+# 키워드 빈도수 및 트렌드 분석
 
-## 단어 임베딩
-- 단어 임베딩은 단어들을 고차원의 좌표공간에(벡터)로 매핑해주는 방법론으로 유사한 단어들은 서로 가까운 좌표에 매핑됨
+## 주요기능
+- 형태소 분석기 설정
+- 전체 기간에 대한 키워드 빈도수 출력
+- 일별 키워드 빈도수 출력
+- 일별 키워드 빈도수 트렌드 출력
+- 포함단어를 통해 특정 키워드를 분석에 포함 : 이 경우는 형태소 분석과 관계없이 스트링 매칭 알고리즘 활용으로 일치횟수 
 
 <img src = "https://github.com/keibigdata/dyjin_2020/blob/master/4.%20%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_W2V/images/1.png?raw=true">
 
 <img src = "https://github.com/keibigdata/dyjin_2020/blob/master/4.%20%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_W2V/images/3.png?raw=true">
-
-- 엣지 : 코사인 유사도가 0.7 이상인 경우 (향후 입력으로 받도록 수정 예정)
-- 노드 크기 : 엣지의 합
-- 노드 색깔 : 
-
 
