@@ -17,6 +17,8 @@
 - 키워드 분석 결과, 상위 N개 키워드 네트워크 분석 결과 출력
 
 
+<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/4.%20%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_W2V/images/2.png?raw=true">
+
 - 윈도우 크기 : 1개의 단어 매핑 시 주위 몇 개의 단어를 고려할 것인지?
 - 임베딩 차원 : 각 키워드를 몇차원의 벡터로 임베딩 할 것인지?
 - 키워드 개수 : 몇 개의 키워드로 네트워크를 구성할 것인지?
@@ -25,7 +27,8 @@
 ## 주요 사례
 - 2019년 네이버 환경뉴스 : 수돗물 이슈 
 
-<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/3_%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_%EC%97%B0%EA%B4%80%EB%B6%84%EC%84%9D/images/3.png?raw=true">
+
+<img src = "https://github.com/keibigdata/dyjin_2020/blob/master/4.%20%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EB%B6%84%EC%84%9D_W2V/images/3.png?raw=true">
 
 
 - 미세먼지 : 고농도 미세먼지, 중국, 공기청정기, 저감, 마스크, 차량 N부제, 노후경유차 등
