@@ -13,3 +13,7 @@
 - R Shiny를 통해 App 구현
 
 <img src = "https://github.com/keibigdata/dyjin_2020/blob/master/5_%ED%82%A4%EC%9B%8C%EB%93%9C_%EB%B9%88%EB%8F%84_%EB%B0%8F_%ED%8A%B8%EB%A0%8C%EB%93%9C_%EB%B6%84%EC%84%9D/images/1.png?raw=true">
+
+## 추가 파일설명
+1) 코드 
+- code/app.R : 웹 RShiny 코드
